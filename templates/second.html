@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 style="color: ghostwhite;">Welcome to this second html page </h1>
+        <h1>
+            <a href="{% url 'first' %}">go to first html page</a>
+            <br>
+        <a href="{% url 'app2:sthird' %}">go to third html page</a>
+        </h1>
+    </center>
+    
+</body>
+</html>
